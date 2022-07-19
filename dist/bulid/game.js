@@ -1,0 +1,1 @@
+"use strict";var gamePrototype=function(){this.id=null,this.slug=null,this.title=null,this.imageFile=null,this.frame=null,this.embed=null,this.embedType=null,this.url=null,this.isExternal=null,this.preAd=null,this.isLoaded=!1,this.isExpanded=!1,this.inGameBox=null},Game=Object.assign(new gamePrototype,window.gameData||{});

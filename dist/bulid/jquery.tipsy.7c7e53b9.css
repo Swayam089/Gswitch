@@ -1,0 +1,57 @@
+.tipsy {
+    font-size: 12px;
+    position: absolute;
+    padding: 5px;
+    z-index: 100000
+  }
+  .tipsy-inner {
+    background-color: #e6ffff;
+    color: #333;
+    max-width: 200px;
+    padding: 5px 8px 4px 8px;
+    text-align: center;
+    box-shadow: 1px 1px 2px rgba(0,0,0,.2)
+  }
+  .tipsy-inner {
+    border-radius: 3px;
+    -webkit-border-radius: 3px
+  }
+  .tipsy-arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border: 5px dashed #e6ffff
+  }
+  .tipsy-arrow-e,
+  .tipsy-arrow-n,
+  .tipsy-arrow-w {
+    border-bottom-color: #e6ffff
+  }
+  .tipsy-n .tipsy-arrow {
+    top: 0;
+    left: 50%;
+    margin-left: -5px;
+    border-bottom-style: solid;
+    border-top: none;
+    border-left-color: transparent;
+    border-right-color: transparent
+  }
+  .tipsy-e .tipsy-arrow {
+    right: 0;
+    top: 50%;
+    margin-top: -5px;
+    border-left-style: solid;
+    border-right: none;
+    border-top-color: transparent;
+    border-bottom-color: transparent
+  }
+  .tipsy-w .tipsy-arrow {
+    left: 0;
+    top: 50%;
+    margin-top: -5px;
+    border-right-style: solid;
+    border-left: none;
+    border-top-color: transparent;
+    border-bottom-color: transparent
+  }

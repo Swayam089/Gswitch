@@ -1,0 +1,69 @@
+.autocomplete-suggestions {
+    background-color: #79ad5a;
+    cursor: default;
+    overflow: auto;
+    -webkit-box-shadow: 1px 1px 1px rgba(0,0,0,.13);
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    margin-top: 4px
+  }
+  .autocomplete-did-you-mean,
+  .autocomplete-show-all,
+  .autocomplete-suggestion {
+    padding: 5px;
+    overflow: hidden;
+    text-shadow: 0 1px 0 rgba(255,255,255,.3);
+    color: #484848;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center
+  }
+  .autocomplete-did-you-mean:hover,
+  .autocomplete-selected,
+  .autocomplete-show-all:hover {
+    background: none repeat scroll 0 0 #669a47;
+    border-radius: 5px;
+    color: #ffc;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.25)
+  }
+  .autocomplete-show-all {
+    padding: 10px;
+    justify-content: center
+  }
+  .autocomplete-no-suggestion {
+    padding: 15px;
+    text-align: center
+  }
+  .autocomplete-did-you-mean {
+    flex-direction: column
+  }
+  .autocomplete-did-you-mean > span {
+    padding: 3px
+  }
+  .autocomplete-did-you-mean > span:first-child {
+    font-style: italic;
+    font-size: 10px
+  }
+  .highlight {
+    color: #121212
+  }
+  .autocomplete-selected .highlight {
+    color: #ffc
+  }
+  .autocomplete-suggestion div {
+    float: left
+  }
+  .gsugg_img {
+    padding: 3px;
+    display: inline-block
+  }
+  .gsugg_img img {
+    border: 3px solid rgba(255,255,255,.15);
+    border-radius: 3px;
+    display: block
+  }
+  .gsugg_title {
+    padding-left: 4px
+  }

@@ -1,0 +1,1 @@
+"use strict";var rated=!1;function rate(a){var e=$("#rating-message"),t=$("#rating");e.show("slow"),rated||$.ajax({type:"POST",url:"/services/rate-game.json",data:{id:Game.id,rating:a},dataType:"json"}).done(function(a){e.html(a.message),t.html(a.new_score).animate({color:"red"}).animate({color:"#333"}),rated=!0})}

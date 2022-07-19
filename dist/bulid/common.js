@@ -1,0 +1,1 @@
+"use strict";var dataLayer=window.dataLayer||null;$(function(){$(window).on("gaPushEvent",function(a,n){dataLayer&&dataLayer.push(n)})});
